@@ -10,12 +10,11 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.0.0</version> <!-- Make sure this is the latest version -->
-    <relativePath/> <!-- lookup parent from repository -->
+    <version>3.0.0</version>
+    <relativePath/>
   </parent>
 
   <dependencies>
-    <!-- Spring Boot Web Starter -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -24,11 +23,10 @@
 
   <build>
     <plugins>
-      <!-- Spring Boot Maven Plugin -->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>3.0.0</version> <!-- Ensure correct version -->
+        <version>3.0.0</version> 
       </plugin>
     </plugins>
   </build>
